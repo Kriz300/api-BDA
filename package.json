@@ -18,7 +18,8 @@
   "homepage": "https://github.com/Kriz300/api-BDA#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "pg": "^8.4.1"
+    "pg": "^8.4.1",
+    "pg-cursor": "^2.4.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"

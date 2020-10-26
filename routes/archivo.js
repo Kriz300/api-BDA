@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const pool = require("../data/postgresql")
+const fs = require("fs");
 
 router.get("/:ori", async (req, res) => {
 
@@ -21,8 +21,9 @@ router.get("/:ori", async (req, res) => {
 
     const inicio = Date.now();
 
-    //const response = await pool.query('SELECT * FROM ' + req.params.ori + ';');
+    //var texto = fs.readFileSync("test.txt", {encoding:"utf-8"});
     
+    //console.log(texto);
     const nextStage = Date.now();
     
     //rows = count(response.rows);
@@ -31,7 +32,7 @@ router.get("/:ori", async (req, res) => {
     time.push("Tiempo que se demoro el agrupamiento: " + (Date.now() - nextStage).toString() + "[ms]");
     time.push("Tiempo de ejecución total sin contar el 'printeo': " + (Date.now() - inicio).toString() + "[ms]");
     
-    exit.row = rows;
+    //exit.row = rows;
     exit.time = time;
 
     res.send(exit);

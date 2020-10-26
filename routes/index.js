@@ -4,6 +4,6 @@ const postgresql = require("./postgresql");
 const archivo = require("./archivo");
 
 router.use("/postgresql", postgresql);
-router.use("/archivo/:ori", archivo);
+router.use("/archivo", archivo);
 
 module.exports = router;
