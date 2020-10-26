@@ -1,6 +1,6 @@
-# Ayudantía DW 2020-2
+# BDA 2020-1
 
-_Este repo guarda los archivos mostrados en la ayudantia._
+_Este repo contiene una api desarrollada para la actividad 5. Porque una api? Me parecio una buena idea; interesante, escalable y usable a futuro._
 
 ## Uso 🔧
 
