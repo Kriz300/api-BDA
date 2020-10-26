@@ -1,4 +1,4 @@
-# BDA 2020-1
+# BDA 2020-2
 
 _Este repo contiene una api desarrollada para la actividad 5. Porque una api? Me parecio una buena idea; interesante, escalable y usable a futuro._
 
